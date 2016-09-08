@@ -1,5 +1,5 @@
 import requests
 
-response = requests.post("http://ccid-eddieantonio.rhcloud.com/ningwei")
+response = requests.get("https://github.com/WeiLing5/CMPUT404/raw/master/lab1.py")
 
-print response.status_code
+print response.text
